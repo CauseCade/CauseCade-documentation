@@ -52,7 +52,7 @@ Where nodes have the following properties:
 1. name
 2. statecount (how many states each node/random variable has)
 3. the labels for each state (e.g 'true','false')
-4. isInstantiated (whether this node has been observed/measured)
+4. ~~isInstantiated (whether this node has been observed/measured)~~ (deprecated 27-01-18)
 5. ConditionalProbabilityTable(CPT) (Matrix containing the conditional probability distribution)
 6. Posterior (probability of this node)
 7. Lambda Evidence (evidence this node has gotten from it's descendants) (amount of entries should match statecount)
